@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta name="robots" content="noindex, follow" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Yoga Lumière, studio yoga & Pilates Orvault</title>
+  <meta name="description" content="Réserver un cours d'essai à 12 €, poser une question, venir essayer. Téléphone, email, formulaire et FAQ rapide pour les nouveaux pratiquants.">
+  <link rel="canonical" href="https://yoga.tavitrinelocale.fr/contact.html">
+  <meta name="theme-color" content="#FAF6EF">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://yoga.tavitrinelocale.fr/" },
+      { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://yoga.tavitrinelocale.fr/contact.html" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Aller au contenu</a>
+  <header class="site-header">
+    <a href="index.html" class="brand">
+      <span class="brand__name">Yoga Lumière</span>
+      <span class="brand__city">Orvault · 44</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Cours & tarifs</a>
+      <a href="zone-intervention.html">Le studio</a>
+      <a href="realisations.html">Ateliers & retraites</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html" class="nav__cta" aria-current="page">Réserver</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main">
+
+    <!-- 1. En-tête -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Contact</span>
+          <h1>Réserver, demander, <em>venir essayer</em>.</h1>
+          <p>Le plus simple, c'est le téléphone. Mais vous pouvez aussi écrire, ou remplir le formulaire ci-dessous — on répond vite.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 + 3. Coordonnées + horaires -->
+    <section class="section section--sand" style="padding-top:0">
+      <div class="container">
+        <div class="info-grid">
+          <div class="info">
+            <h3>Téléphone</h3>
+            <p><a href="tel:+33240990632">02 40 99 06 32</a></p>
+            <p class="form-note">Du lundi au samedi, aux heures d'ouverture.</p>
+          </div>
+          <div class="info">
+            <h3>Email</h3>
+            <p><a href="mailto:contact@yoga-lumiere.fr">contact@yoga-lumiere.fr</a></p>
+            <p class="form-note">Réponse sous 24 h en général.</p>
+          </div>
+          <div class="info">
+            <h3>Adresse</h3>
+            <p><a href="zone-intervention.html">27 rue de la Cholière<br>44700 Orvault</a></p>
+            <p class="form-note">La Bugallière, nord de Nantes.</p>
+          </div>
+        </div>
+
+        <div class="info" style="margin-top:1.25rem">
+          <h3>Horaires d'ouverture</h3>
+          <ul class="facts" style="margin-top:0.5rem">
+            <li><b>Lundi au vendredi</b> : 9 h - 21 h (créneaux matin, midi et soir)</li>
+            <li><b>Samedi</b> : 9 h - 13 h (cours du matin)</li>
+            <li><b>Dimanche</b> : fermé</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Formulaire -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Écrivez-nous</span>
+          <h2>Dites-nous <em>ce qui vous amène</em>.</h2>
+        </div>
+
+        <form class="form" action="#" method="post" data-demo-form novalidate>
+          <p class="form-feedback" tabindex="-1" hidden>Démo — pas de backend. Merci d'envoyer votre demande par email à contact@yoga-lumiere.fr.</p>
+
+          <div class="field">
+            <label for="nom">Nom <span aria-hidden="true">*</span></label>
+            <input type="text" id="nom" name="nom" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="tel">Téléphone (optionnel)</label>
+            <input type="tel" id="tel" name="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="cours">Cours souhaité</label>
+            <select id="cours" name="cours">
+              <option value="">Je ne sais pas encore</option>
+              <option>Vinyasa</option>
+              <option>Yin</option>
+              <option>Yoga prénatal</option>
+              <option>Pilates mat</option>
+              <option>Hatha doux</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn">Envoyer ma demande</button>
+          </div>
+
+          <noscript>
+            <p class="form-note">Le formulaire nécessite JavaScript. Écrivez-nous directement à
+              <a class="link" href="mailto:contact@yoga-lumiere.fr">contact@yoga-lumiere.fr</a>.</p>
+          </noscript>
+
+          <p class="form-note">Vos coordonnées servent uniquement à répondre à votre demande. Elles ne sont ni revendues, ni utilisées à des fins publicitaires. Voir les <a class="link" href="mentions-legales.html">mentions légales</a>.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- 5. FAQ -->
+    <section class="section section--sand">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Questions fréquentes</span>
+          <h2>Avant de venir, <em>quatre réponses</em>.</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Je n'ai jamais fait de yoga, je peux venir ?</summary>
+            <p>Oui, complètement. Le hatha doux et le yin sont parfaits pour commencer, et chaque posture s'adapte. La plupart de nos pratiquants débutaient il y a peu.</p>
+          </details>
+          <details>
+            <summary>Vous proposez un cours d'essai gratuit ?</summary>
+            <p>Pas gratuit, mais à 12 € au lieu de 18 €. C'est un vrai cours complet. Ce tarif nous permet de garder des petits groupes sans réserver une place pour rien.</p>
+          </details>
+          <details>
+            <summary>Comment annuler un cours réservé ?</summary>
+            <p>Directement sur Bsport, jusqu'à 4 heures avant le début du cours. Au-delà, la séance est décomptée — c'est ce qui permet à quelqu'un d'autre de prendre la place à temps.</p>
+          </details>
+          <details>
+            <summary>Est-ce que je dois m'inscrire avant ?</summary>
+            <p>Oui, on fonctionne sur réservation via Bsport pour garantir votre place. Pour un tout premier cours, un coup de fil au 02 40 99 06 32 suffit, on s'occupe du reste.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__cols">
+      <div>
+        <p class="footer__brand">Yoga Lumière</p>
+        <p>27 rue de la Cholière<br>44700 Orvault</p>
+        <p><a href="tel:+33240990632">02 40 99 06 32</a></p>
+        <p><a href="mailto:contact@yoga-lumiere.fr">contact@yoga-lumiere.fr</a></p>
+      </div>
+      <div>
+        <p class="footer__title">Horaires</p>
+        <p>Lundi-vendredi 9 h - 21 h<br>Samedi 9 h - 13 h</p>
+      </div>
+      <div>
+        <p class="footer__title">Pages</p>
+        <ul>
+          <li><a href="services.html">Cours & tarifs</a></li>
+          <li><a href="realisations.html">Ateliers & retraites</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__credit">
+      Site réalisé par <a href="https://tavitrinelocale.fr" rel="noopener">Ta Vitrine Locale</a>
+      — création de sites internet pour TPE en Loire-Atlantique
+    </p>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
